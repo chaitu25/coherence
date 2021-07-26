@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<coherence xmlns="http://schemas.tangosol.com/cache">
+   <cluster-config>
+      <member-identity>
+         <cluster-name>OBDXCluster</cluster-name>
+      </member-identity>
+      <multicast-listener>
+         <address>whf00dxu.in.oracle.com</address>
+         <time-to-live>2</time-to-live>
+      </multicast-listener>
+   </cluster-config>
+  
+   <configurable-cache-factory-config>
+      <init-params>
+         <init-param>
+            <param-type>java.lang.String</param-type>
+            <param-value system-property="coherence.cacheconfig">
+               example-config.xml</param-value>
+         </init-param>
+      </init-params>
+   </configurable-cache-factory-config>
+</coherence>

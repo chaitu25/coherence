@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Built-By: cjogleka
+Class-Path: libs/coherence-20.12.1.jar libs/coherence-jcache-20.12.1.j
+ ar libs/cache-api-1.1.1.jar
+Build-Jdk: 1.8.0_291
+Created-By: Maven Integration for Eclipse
+Main-Class: com.example.CacheServer
+
